@@ -4,6 +4,7 @@ import logo from "../assets/img/logo2.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon4 from "../assets/img/nav-icon4.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import TrackVisibility from 'react-on-screen';
 
 export const Footer = () => {
   return (
@@ -12,7 +13,13 @@ export const Footer = () => {
         <Row className="align-items-center">
           <MailchimpForm />
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" className="img2"/>
+            
+            <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                  <div className="animate__animated animate__zoomIn"><img src={logo} alt="Logo" className="img2"/></div>
+                </div>}
+            </TrackVisibility>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">

@@ -70,6 +70,13 @@ img {
   width: 135%;
   height: auto;
 }
+@media only screen and (max-width: 600px){
+  .img1 {
+    width: 185%;
+    height: auto;
+  }
+}
+
 .img2 {
   width: 135%;
   height: auto;
