@@ -52,11 +52,12 @@ export const Projects = () => {
   ];
 
   const projects3 = [
+    
     {
-      title: "Portfolio",
-      description: "my old portfolio website for fun",
-      imgUrl: projImg1,
-      Url : "https://rohit-first.netlify.app/"
+      title: "Dynamic-component",
+      description: "Fully dynamic website",
+      imgUrl: projImg3,
+      Url : "https://github.com/Rohit5464/dynamic-components"
     },
     {
       title: "Rohit-quiz",
@@ -65,11 +66,12 @@ export const Projects = () => {
       Url : "https://github.com/Rohit5464/Rohit-Quiz"
     },
     {
-      title: "Dynamic-component",
-      description: "Fully dynamic website",
-      imgUrl: projImg3,
-      Url : "https://github.com/Rohit5464/dynamic-components"
+      title: "Portfolio",
+      description: "my portfolio website which you are exploring right now",
+      imgUrl: projImg1,
+      Url : "https://portfolio-codesmoke.vercel.app/"
     }
+    
   ];
 
   return (
