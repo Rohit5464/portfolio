@@ -1,8 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/p1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import p1 from "../assets/img/p1.png";
+import p2 from "../assets/img/p2.png";
+import p3 from "../assets/img/p3.png";
+import p4 from "../assets/img/project-img1.png";
+import p5 from "../assets/img/project-img2.png";
+import p6 from "../assets/img/project-img3.png";
+import p7 from "../assets/img/project-img2.png";
+import p8 from "../assets/img/project-img1.png";
+import p9 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,19 +19,19 @@ export const Projects = () => {
     {
       title: "Rentley",
       description: "E-commerce website",
-      imgUrl: projImg1,
+      imgUrl: p1,
       Url : "https://rentley.vercel.app/"
     },
     {
       title: "Farzi-tube",
       description: "Youtube clone webapp",
-      imgUrl: projImg2,
+      imgUrl: p2,
       Url : "https://farzi-tube.vercel.app/"
     },
     {
       title: "RMDB",
       description: "Movies and tvshows rating and muchmore",
-      imgUrl: projImg3,
+      imgUrl: p3,
       Url : "https://rmdb-rohit5464.vercel.app/"
     }
   ];
@@ -34,19 +40,19 @@ export const Projects = () => {
     {
       title: "R-keep",
       description: "Your personal notes saver",
-      imgUrl: projImg1,
+      imgUrl: p4,
       Url : "https://63e627f116052f0a94f496f6--rohit-keep.netlify.app/"
     },
     {
       title: "Emoji-name",
       description: "Provide information about emojis",
-      imgUrl: projImg2,
+      imgUrl: p5,
       Url : "https://63e09c0ed820f610a734e1a9--rohit-emojiname.netlify.app/"
     },
     {
       title: "Minion-talks",
       description: "Minion language translator",
-      imgUrl: projImg3,
+      imgUrl: p6,
       Url : "https://rohit-miniontalks.netlify.app/"
     }
   ];
@@ -56,19 +62,19 @@ export const Projects = () => {
     {
       title: "Dynamic-component",
       description: "Fully dynamic website",
-      imgUrl: projImg3,
+      imgUrl: p7,
       Url : "https://github.com/Rohit5464/dynamic-components"
     },
     {
       title: "Rohit-quiz",
       description: "How well do you know about me?",
-      imgUrl: projImg2,
+      imgUrl: p8,
       Url : "https://github.com/Rohit5464/Rohit-Quiz"
     },
     {
       title: "Portfolio",
       description: "my portfolio website which you are exploring right now",
-      imgUrl: projImg1,
+      imgUrl: p9,
       Url : "https://portfolio-codesmoke.vercel.app/"
     }
     
