@@ -1,14 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import p1 from "../assets/img/p1.png";
+import p1 from "../assets/img/p1.jpg";
 import p2 from "../assets/img/p2.png";
 import p3 from "../assets/img/p3.png";
-import p4 from "../assets/img/project-img1.png";
-import p5 from "../assets/img/project-img2.png";
-import p6 from "../assets/img/project-img3.png";
-import p7 from "../assets/img/project-img2.png";
-import p8 from "../assets/img/project-img1.png";
-import p9 from "../assets/img/project-img3.png";
+import p4 from "../assets/img/p4.jpg";
+import p5 from "../assets/img/p5.png";
+import p6 from "../assets/img/p6.png";
+import p7 from "../assets/img/p7.jpg";
+import p8 from "../assets/img/p8.jpg";
+import p9 from "../assets/img/p9.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -93,13 +93,13 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Major Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Minor Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">Learnings</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

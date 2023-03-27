@@ -6,7 +6,7 @@ export const ProjectCard = ({ title, description, imgUrl , Url } , index) => {
     // <a href="https://rentley.vercel.app/" key={index} > 
 
         <Col size={12} sm={6} md={4}>
-            <a href={Url}>
+            <a href={Url} target="_blank">
             <div className="proj-imgbx">
       <img src={imgUrl} className="project1"/>
       
