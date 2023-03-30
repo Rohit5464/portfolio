@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import p1 from "../assets/img/p1.jpg";
+import p1 from "../assets/img/p1-1.jpg";
 import p2 from "../assets/img/p2.png";
 import p3 from "../assets/img/p3.png";
 import p4 from "../assets/img/p4.jpg";
@@ -17,17 +17,18 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "Rentley",
-      description: "E-commerce website",
-      imgUrl: p1,
-      Url : "https://rentley.vercel.app/"
-    },
-    {
       title: "Farzi-tube",
       description: "Youtube clone webapp",
       imgUrl: p2,
       Url : "https://farzi-tube.vercel.app/"
     },
+    {
+      title: "Rentley",
+      description: "E-commerce website",
+      imgUrl: p1,
+      Url : "https://rentley.vercel.app/"
+    },
+    
     {
       title: "RMDB",
       description: "Movies and tvshows rating and muchmore",
