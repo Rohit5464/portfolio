@@ -1,6 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import p1 from "../assets/img/p1-1.jpg";
 import p2 from "../assets/img/p2.png";
 import p3 from "../assets/img/p3.png";
 import p4 from "../assets/img/p4.jpg";
@@ -9,6 +8,7 @@ import p6 from "../assets/img/p6.png";
 import p7 from "../assets/img/p7.jpg";
 import p8 from "../assets/img/p8.jpg";
 import p9 from "../assets/img/p9.png";
+import hh from "../assets/img/hh.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -23,10 +23,10 @@ export const Projects = () => {
       Url : "https://farzi-tube.vercel.app/"
     },
     {
-      title: "Rentley",
-      description: "E-commerce website",
-      imgUrl: p1,
-      Url : "https://rentley.vercel.app/"
+      title: "House-hunter",
+      description: "Find your alike roommate",
+      imgUrl: hh,
+      Url : "https://househunter-d.vercel.app/"
     },
     
     {
